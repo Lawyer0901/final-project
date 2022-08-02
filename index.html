@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Icecream</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header hero">
+      <a class="header__logo" href="./index.html"
+        ><svg class="header__logo-icon" width="199" heigth="50">
+          <use href="./img/icon.svg#icon-logo"></use></svg
+      ></a>
+      <!-- MOBILE BURGER -->
+      <button class="header__burger" type="button"><svg class="header__burger-icon"><use href="./img/icon.svg#icon-Burger"></use></svg></button>
+      <!-- MOBILE MENU -->
+      <div class="header__mobile">
+        <button class="header__mobile-button" type="button">Buy now
+        <svg class="header__mobile-icon" width="4" height="8">
+          <use href="./img/icon.svg#icon-vectorright"></use>
+        </svg></button>
+        <nav header__mobile-nav>
+            <ul class="header__mobile-list">
+                <li class="header__mobile-list"><a class="header__mobile-link" href="#">Home</a></li>
+                <li class="header__mobile-list"><a class="header__mobile-link" href="#about">About us</a></li>
+                <li class="header__mobile-list"><a class="header__mobile-link" href="#advantages">How it’s made?</a></li>
+                <li class="header__mobile-list"><a class="header__mobile-link" href="#products">Our products</a></li>
+                <li class="header__mobile-list"><a class="header__mobile-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">About us</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">How it’s made?</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Our products</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button" type="button">
+        Buy now
+        <svg class="header__button-icon" width="4" height="8">
+          <use href="./img/icon.svg#icon-vectorright"></use>
+        </svg>
+      </button>
+
+      <!-- HERO -->
+
+      <h1 class="hero__title">ice cream made with passion</h1>
+      <button class="hero__button-product" type="button">Products</button>
+      <button class="hero__button-made" type="button">How it’s made?</button>
+      <img
+        srcset="./img/milk.jpg 1x, ./img/milk@2x.jpg 2x"
+        src="./img/milk.jpg"
+        alt="milk"
+        class="hero__img-milk"
+      />
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <button class="hero__-button-arrow" type="button">
+        <img
+          class="button__arrow-rigth"
+          src="./img/arrow-right.jpg"
+          alt="arrow-right"
+        />
+      </button>
+      <img
+        class="hero__elipse"
+        srcset="./img/ellipse.jpg 1x, ./img/ellipse@2x.jpg 2x"
+        src="./img/ellipse.jpg"
+        alt=""
+      />
+      <img
+        class="hero__icecream"
+        srcset="./img/mainicecream.jpg 1x, ./img/mainicecream@2x.jpg 2x"
+        src="./img/mainicecream.jpg"
+        alt="icecream"
+      />
+      <svg class="hero__elipse-icon">
+        <use href="./img/icon.svg#icon-elipsesmall"></use>
+      </svg>
+      <h2 class="hero__subtitle">16</h2>
+      <p class="hero__subtitle-text">cafes</p>
+      <h2 class="hero__subtitle">23</h2>
+      <p class="hero__subtitle-text">food trucks</p>
+      <img
+        class="hero__img-tastygirl"
+        srcset="./img/tastygirl.jpg 1x, ./img/tastygirl@2x.jpg 2x"
+        src="./img/tastygirl.jpg"
+        alt="tastygirl"
+      />
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- PRODUCTS -->
+      <section class="products" id="products">
+        <a href="#" class="products__lable">100% natural</a>
+        <h2 class="products__title">products</h2>
+        <ul class="product__list">
+          <li class="product__item">
+            <img
+              class="product__item-img"
+              srcset="./img/icecream-prod.jpg 1x, ./img/icecream-prod@2x.jpg 2x"
+              src="./img/icecream-prod.jpg"
+              alt="icecream"
+            />
+            <svg class="product__item-icon">
+              <use href="./img/icon.svg#icon-dotswhite"></use>
+            </svg>
+            <h3 class="product__item-title">ice cream</h3>
+            <p class="product__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+            <button class="product__item-button">
+              <img src="./img/arrow-right.jpg" alt="arrow-right" />
+            </button>
+          </li>
+          <li class="product__item">
+            <img
+              class="product__item-img"
+              srcset="./img/cofee.jpg 1x, ./img/cofee@2x.jpg 2x"
+              src="./img/cofee.jpg"
+              alt="cofee"
+            />
+            <svg class="product__item-icon">
+              <use href="./img/icon.svg#icon-dotswhite"></use>
+            </svg>
+            <h3 class="product__item-title">ice coffee</h3>
+            <p class="product__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+            <button class="product__item-button">
+              <img src="./img/arrow-right.jpg" alt="arrow-right" />
+            </button>
+          </li>
+          <li class="product__item">
+            <img
+              class="product__item-img"
+              srcset="./img/milkshake.jpg 1x, ./img/milkshake@2x.jpg 2x"
+              src="./img/milkshake.jpg"
+              alt="icecream"
+            />
+            <svg class="product__item-icon">
+              <use href="./img/icon.svg#icon-dotswhite"></use>
+            </svg>
+            <h3 class="product__item-title">ice cream</h3>
+            <p class="product__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+            <button class="product__item-button">
+              <img src="./img/arrow-right.jpg" alt="arrow-right" />
+            </button>
+          </li>
+        </ul>
+      </section>
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <a href="#" class="about_lable">tradition and love </a>
+        <h2 class="about__title">how it’s made?</h2>
+        <img
+          class="about__img-cow"
+          srcset="./img/cow.jpg 1x, ./img/cow.jpg 2x"
+          src="./img/cow.jpg"
+          alt="cow"
+        />
+        <h3 class="about__subtitle">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+          cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
+          justo fringilla.
+        </h3>
+        <p class="about__text">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+          Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
+          suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+          tincidunt. Aliquam erat volutpat. Aenean accumsan.
+        </p>
+        <button class="about__button" type="button">
+          Read more
+          <svg class="about__button-icon">
+            <use href="./img/icon.svg#icon-vectorright"></use>
+          </svg>
+        </button>
+      </section>
+      <!-- ADVANTAGES -->
+      <section class="advantages" id="advantages">
+        <h2 class="title-none">Advantages</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/icon.svg#icon-cofee"></use>
+            </svg>
+            <h2 class="advantages__title">721</h2>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/icon.svg#icon-apples"></use>
+            </svg>
+            <h2 class="advantages__title">16kg</h2>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use href="./img/icon.svg#icon-heart"></use>
+            </svg>
+            <h2 class="advantages__title">84</h2>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- GALLERY -->
+      <section class="gallery">
+        <img
+          srcset="./img/group.jpg 1x, ./img/group@2x.jpg 2x"
+          src="./img/group.jpg"
+          alt="group"
+          class="gallery__img"
+        />
+      </section>
+      <!-- REVIEWS -->
+      <section class="reviews">
+        <img
+          srcset="./img/testimonials.jpg 1x, ./img/testimonials@2x.jpg 2x"
+          src="./img/testimonials.jpg"
+          alt="testimonial"
+          class="reviews__img"
+        />
+        <p class="reviews__text">
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+          Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+          ipsum primis in nibh vel risus.
+        </p>
+        <svg class="reviews__icon-dots">
+          <use href="./img/icon.svg#icon-dotsred"></use>
+        </svg>
+        <p class="reviews__name">Emily, Los Angeles</p>
+        <svg class="reviews__icon-home">
+          <use href="./img/icon.svg#icon-home"></use>
+        </svg>
+        <svg class="reviews__icon-dot">
+          <use href="./img/icon.svg#icon-elipsgray"></use>
+        </svg>
+        <svg class="reviews__icon-dot">
+          <use href="./img/icon.svg#icon-elipsgray"></use>
+        </svg>
+      </section>
+      <!-- CONTACTS -->
+      <section class="contacts" id="contact">
+        <ul class="contacts__list">
+          <li class="contacts__list">
+            <h2 class="contacts__title">CAFE</h2>
+            <h3 class="contacts__subtitle">Chicago</h3>
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+            <h3 class="contacts__subtitle">Monday - Friday</h3>
+            <p class="contacts__time">06:00 AM - 10:00 PM</p>
+            <h3 class="contacts__subtitle">Saturday - Sunday</h3>
+            <p class="contacts__time">08:00 AM - 16:00 PM</p>
+            <a class="contacts__tel" href="tel:+61(0)383766284"
+              >+61(0)383766284</a
+            >
+            <a class="contacts__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </li>
+
+          <li class="contacts__list">
+            <h2 class="contacts__title">FOOD TRUCK</h2>
+            <h3 class="contacts__subtitle">Los Angeles</h3>
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+            <h3 class="contacts__subtitle">Monday - Friday</h3>
+            <p class="contacts__time">06:00 AM - 10:00 PM</p>
+            <h3 class="contacts__subtitle">Saturday - Sunday</h3>
+            <p class="contacts__time">08:00 AM - 16:00 PM</p>
+            <a class="contacts__tel" href="tel:+61(0)383766284"
+              >+61(0)383766284</a
+            >
+            <a class="contacts__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </li>
+           <h2 class="contacts__title">CAFE</h2>
+            <h3 class="contacts__subtitle">New York</h3>
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+            <h3 class="contacts__subtitle">Monday - Friday</h3>
+            <p class="contacts__time">06:00 AM - 10:00 PM</p>
+            <h3 class="contacts__subtitle">Saturday - Sunday</h3>
+            <p class="contacts__time">08:00 AM - 16:00 PM</p>
+            <a class="contacts__tel" href="tel:+61(0)383766284"
+              >+61(0)383766284</a
+            >
+            <a class="contacts__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <button class="footer__button"> Our Locations
+            <svg class="footer__button-icon"><use href="./img/icon.svg#icon-vectorright"></use></svg>
+            </button>
+             <button class="footer__button"> Franchise
+            <svg class="footer__button-icon"><use href="./img/icon.svg#icon-vectorright"></use></svg>
+            </button>
+            <a href="#" class="footer__lable">homemade ice cream made </a>
+            <h2 class="footer__title">with passion</h2>
+            <svg class="footer__link"><use href="./img/icon.svg#icon-github"></use></svg>
+            <svg class="footer__link"><use href="./img/icon.svg#icon-telegram"></use></svg>
+            <svg class="footer__link"><use href="./img/icon.svg#icon-facebook"></use></svg>
+            <a href="tel:+61(0)383766284" class="footer__contact"><span class="footer__info">Feel free to contact </span> +61 (0) 383 766 284</a>
+            <p class="footer__law">© 2022 - IceCream. All Rights Reserved. </p>
+    </footer>
+  </body>
+</html>
